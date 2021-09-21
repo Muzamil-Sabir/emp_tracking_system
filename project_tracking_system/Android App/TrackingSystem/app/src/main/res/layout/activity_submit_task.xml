@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task_pending_details">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_x="0dp"
+        android:layout_y="5dp"
+        android:background="@color/red"
+
+        android:gravity="center"
+        android:text="SUBMIT TASK"
+        android:textSize="16pt" />
+
+
+    <Button
+        android:id="@+id/submit_task"
+        android:layout_width="229dp"
+        android:layout_height="71dp"
+        android:layout_x="83dp"
+        android:layout_y="309dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:onClick="submit_task_with_location"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:layout_x="69dp"
+        android:layout_y="90dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="Remarks"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/task_remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="188dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+</AbsoluteLayout>
